@@ -1,6 +1,5 @@
-#The script generates an error. Please add the appropriate code that adds variables a and b without an error.
-#A: The script generates an error saying that an integer object cannot convert to string implicitly.
-#Please try to convert the integer to a string explicitly then or the string to an integer.
+# Question: Fix the last line so that it outputs the sum of 1 and 2. Please do not change the first two lines, only the last one.
+
 a = "1"
 b = 2
-print(a + b)
+print(a + str(b)) # explicitly converted b:int to a string

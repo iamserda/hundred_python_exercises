@@ -1,6 +1,5 @@
-#What will this script produce?
-#A: 3
-a = 1
+#Question 001: Let's start with easy things first. What will the following code produce?
 a = 2
-a = 3
-print(a)
+a = 4
+a = 6
+print(a + a + a) # 18
